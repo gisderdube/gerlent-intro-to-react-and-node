@@ -1,0 +1,22 @@
+{
+    "name": "intro_to_react_node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev:app": "parcel watch src/app/index.html --out-dir src/server/public",
+        "dev:server": "nodemon src/server/index.js --watch src/server --ignore src/server/public"
+    },
+    "author": "Lukas Gisder-Dubé",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.18.9",
+        "parcel-bundler": "^1.11.0"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "morgan": "^1.9.1",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    }
+}
